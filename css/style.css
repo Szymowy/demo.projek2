@@ -57,7 +57,7 @@ ul {
   font-family: "Raleway", sans-serif;
   color: var(--coffee);
   font-size: 26px;
-  line-height: 1.19;
+  /* line-height: 1.19; */
   margin-right: 93px;
   text-decoration: none;
 }

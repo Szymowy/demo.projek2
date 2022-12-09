@@ -107,6 +107,7 @@ ul {
 /* test 4 */
 .live {
   padding-right: 10px;
+  color: var(--sky);
 }
 /* end-test */
 .can {

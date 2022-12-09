@@ -167,6 +167,9 @@ ul {
   font-size: 36px;
   line-height: 1.16;
 }
+.rock {
+  padding-top: 94px;
+}
 .section {
   padding-bottom: 94px;
 }
@@ -174,6 +177,7 @@ ul {
   padding-bottom: 50px;
 }
 .wall {
+  padding-bottom: 50px;
   background: var(--snow);
 }
 .pill {
@@ -250,7 +254,4 @@ ul {
 }
 .web {
   color: var(--sky);
-}
-svg {
-  fill: #000000;
 }

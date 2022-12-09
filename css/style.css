@@ -110,6 +110,10 @@ ul {
   color: var(--sky);
 }
 /* end-test */
+.icon {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 .can {
   padding: 40px 0px 210px;
 }

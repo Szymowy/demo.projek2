@@ -123,14 +123,14 @@ ul {
 /* test 4 */
 .live {
   padding-right: 10px;
-  color: #afb1b8;
+  fill: #afb1b8;
 }
 .live:hover {
-  color: var(--sky);
+  fill: var(--sky);
   cursor: pointer;
 }
-live:focus {
-  color: var(--sky);
+.live:focus {
+  fill: var(--sky);
 }
 /* end-test */
 .icon {

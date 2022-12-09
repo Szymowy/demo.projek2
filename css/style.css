@@ -204,8 +204,8 @@ ul {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
 }
-.socila {
-  border-top: 16px;
+.social {
+  padding-top: 16px;
 }
 .man {
   border-bottom-left-radius: 4px;
@@ -279,4 +279,15 @@ ul {
 }
 .web {
   color: var(--sky);
+}
+.lost {
+  color: var(--milk);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.center {
+  padding-top: 4px;
+  padding-left: 70px;
 }

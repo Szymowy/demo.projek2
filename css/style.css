@@ -278,25 +278,30 @@ ul {
   padding-top: 16px;
 }
 .cheap {
-  fill: #afb1b8;
+  /* fill: #afb1b8; */
   padding-right: 10px;
 }
 .cheap:hover,
 .cheap:focus {
-  fill: var(--sky);
-  color: var(--milk);
+  /* fill: var(--sky);
+  color: var(--milk);*/
   cursor: pointer;
+}
+.wait {
+  fill: var(--cloud);
+}
+.wait:hover,
+.wait:focus {
+  fill: var(--sky);
 }
 .live {
   padding-right: 10px;
   fill: #afb1b8;
 }
-.live:hover {
-  fill: var(--sky);
-  cursor: pointer;
-}
+.live:hover,
 .live:focus {
   fill: var(--sky);
+  /* cursor: pointer; */
 }
 .center {
   padding-top: 4px;
@@ -306,7 +311,6 @@ ul {
   padding-top: 20px;
 }
 .circle {
-  padding-right: 10px;
   fill: rgba(255, 255, 255, 0.1);
   color: var(--milk);
 }
@@ -316,7 +320,7 @@ circle:focus {
   cursor: pointer;
 }
 .icon {
-  fill: #afb1b8;
+  /* fill: #afb1b8; */
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }

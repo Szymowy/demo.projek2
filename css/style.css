@@ -91,19 +91,6 @@ ul {
 .black-link:focus {
   color: var(--sky);
 }
-.social {
-  padding-top: 16px;
-}
-.cheap {
-  fill: #afb1b8;
-  padding-right: 10px;
-}
-.cheap:hover,
-.cheap:focus {
-  fill: var(--sky);
-  color: var(--milk);
-  cursor: pointer;
-}
 .social-links {
   color: var(--cloud);
   font-weight: 500;
@@ -117,31 +104,6 @@ ul {
 .social-links:focus {
   color: var(--sky);
 }
-/* test 4 */
-.live {
-  padding-right: 10px;
-  fill: #afb1b8;
-}
-.live:hover {
-  fill: var(--sky);
-  cursor: pointer;
-}
-.live:focus {
-  fill: var(--sky);
-}
-/* end-test */
-.icon {
-  fill: #afb1b8;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.icon:hover,
-.icon:focus {
-  fill: var(--sky);
-  border: 1px solid var(--sky);
-  cursor: pointer;
-}
-
 .can {
   padding: 40px 0px 210px;
 }
@@ -312,6 +274,30 @@ ul {
   line-height: 16px;
   text-transform: uppercase;
 }
+.social {
+  padding-top: 16px;
+}
+.cheap {
+  fill: #afb1b8;
+  padding-right: 10px;
+}
+.cheap:hover,
+.cheap:focus {
+  fill: var(--sky);
+  color: var(--milk);
+  cursor: pointer;
+}
+.live {
+  padding-right: 10px;
+  fill: #afb1b8;
+}
+.live:hover {
+  fill: var(--sky);
+  cursor: pointer;
+}
+.live:focus {
+  fill: var(--sky);
+}
 .center {
   padding-top: 4px;
   padding-left: 70px;
@@ -327,5 +313,16 @@ ul {
 .circle:hover,
 circle:focus {
   fill: var(--sky);
+  cursor: pointer;
+}
+.icon {
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.icon:hover,
+.icon:focus {
+  fill: var(--sky);
+  border: 1px solid var(--sky);
   cursor: pointer;
 }

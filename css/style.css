@@ -183,6 +183,12 @@ ul {
   font-size: 36px;
   line-height: 1.16;
 }
+.inter {
+  padding-top: 10px;
+}
+.social {
+  padding-top: 16px;
+}
 .rock {
   padding-top: 94px;
 }
@@ -286,9 +292,6 @@ ul {
   line-height: 16px;
   text-transform: uppercase;
 }
-.social {
-  padding-top: 16px;
-}
 .cheap {
   /* fill: #afb1b8; */
   padding-right: 10px;
@@ -313,7 +316,6 @@ ul {
 .live:hover,
 .live:focus {
   fill: var(--sky);
-  /* cursor: pointer; */
 }
 .center {
   padding-top: 4px;

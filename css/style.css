@@ -41,10 +41,18 @@ ul {
 }
 .wall-title {
   background-color: var(--fog);
-  background-image: url("images/main.image.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main.image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1600px 600px;
 }
 .title {
-  padding: 200px 252px 0px;
+  padding: 180px 252px 0px;
   text-transform: uppercase;
   text-align: center;
 }

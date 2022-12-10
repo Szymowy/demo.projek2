@@ -40,7 +40,8 @@ ul {
   list-style-type: none;
 }
 .wall-title {
-  background: var(--fog);
+  background-color: var(--fog);
+  background-image: url("images/main.image.jpg");
 }
 .title {
   padding: 200px 252px 0px;
@@ -182,6 +183,9 @@ ul {
 }
 .team {
   padding-bottom: 50px;
+}
+.seat {
+  padding-bottom: 30px;
 }
 .wall {
   background: var(--snow);

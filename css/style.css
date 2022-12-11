@@ -340,7 +340,7 @@ circle:focus {
 }
 .icon:hover,
 .icon:focus {
-  fill: var(--sky);
+  /* fill: var(--sky); */
   border: 1px solid var(--sky);
   cursor: pointer;
 }

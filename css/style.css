@@ -11,6 +11,7 @@
   --cloud: #757575;
   --coffee: #000000;
   --border: #eeeeee;
+  --late: #afb1b8;
   --pixel: 14px;
 }
 .container {
@@ -188,6 +189,7 @@ ul {
 }
 .social {
   padding-top: 16px;
+  gap: 10px;
 }
 .rock {
   padding-top: 94px;
@@ -257,7 +259,7 @@ ul {
 }
 .glass:hover {
   cursor: pointer;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -293,13 +295,25 @@ ul {
   text-transform: uppercase;
 }
 .cheap {
-  /* fill: #afb1b8; */
-  padding-right: 10px;
+  width: 44px;
+  height: 44px;
+  background-color: var(--milk);
+  border-radius: 50px;
 }
 .cheap:hover,
 .cheap:focus {
-  /* fill: var(--sky);
-  color: var(--milk);*/
+  background-color: var(--sky);
+  cursor: pointer;
+}
+.cheap-down {
+  width: 44px;
+  height: 44px;
+  background-color: var(--cloud);
+  border-radius: 50px;
+}
+.cheap-down:hover,
+.cheap-down:focus {
+  background-color: var(--sky);
   cursor: pointer;
 }
 .wait {
@@ -309,13 +323,22 @@ ul {
 .wait:focus {
   fill: var(--sky);
 }
-.live {
+.live-two {
+  width: 170px;
+  height: 92px;
   padding-right: 10px;
-  fill: #afb1b8;
+  fill: var(--late);
+}
+.live-two:hover,
+.live-two:focus {
+  fill: var(--sky);
+}
+.live {
+  fill: var(--late);
 }
 .live:hover,
 .live:focus {
-  fill: var(--sky);
+  fill: var(--milk);
 }
 .center {
   padding-top: 4px;
@@ -323,24 +346,28 @@ ul {
 }
 .four-circle {
   padding-top: 20px;
+  gap: 10px;
 }
 .circle {
-  fill: rgba(255, 255, 255, 0.1);
-  color: var(--milk);
+  fill: var(--milk);
 }
 .circle:hover,
 circle:focus {
-  fill: var(--sky);
+  fill: var(--milk);
   cursor: pointer;
 }
 .icon {
-  /* fill: #afb1b8; */
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--late);
   border-radius: 4px;
 }
 .icon:hover,
 .icon:focus {
-  /* fill: var(--sky); */
   border: 1px solid var(--sky);
   cursor: pointer;
+}
+.snacks {
+  padding: 18px 38px;
+}
+.cookie {
+  padding: 12px;
 }
